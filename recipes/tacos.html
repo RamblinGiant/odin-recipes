@@ -1,54 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tacos</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacos</title>
+    <link rel="stylesheet" href="new-styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<!-- NAVIGATION BAR -->
+<header class="pageHeader">
+    <div class="headerImg">
+    <nav class="menu">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="tacos.html">Beef Tacos</a></li>
+            <li><a href="veggi-fried-rice.html">Fried Rice</a></li>
+            <li><a href="fried-chicken.html">Fried Chicken</a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+<!-- RECIPE PREVIEW -->
+<main>
+    <div class="example">
+        <div class="background"></div>
+        <img class="overlay" src="tacos-pic.jpg">
+        <div class="previewTitle">Beef Tacos</div>
+        <div class="previewSummary">A quick and easy recipe for ground beef tacos!</div>
+    </div>
+  
+</main>
 
-    <body class="recipePage">
-        <header class="pageHeader">
-            <h1>Tacos</h1>
-            <img src="./tacos-pic.jpg" alt="A picture of tacos " width="400" height="600">
-        </header>
-        
-        <article class="recipeDescription">
-            <h3>Description</h3>
-            <p class="recipeDescriptionParagraph">A quick and easy recipe for ground beef tacos!</p>
-        
-            <h3>Ingredients</h3>
-            <p>
-                <ul class="ingredientList">
-                    <li>1 pound Ground Beef</li>
-                    <li>Tortillas (corn or flour)</li>
-                    <li>1 tablespoon Chili Powder</li>
-                    <li>1 teaspoon Cumin</li>
-                    <li>3/4 teaspoon Salt</li>
-                    <li>1/2 teaspoon Oregano</li>
-                    <li>1/2 teaspoon Garlic Powder</li>
-                    <li>1/4 teaspoon Ground Black Pepper</li>
-                    <li>1/2 cup Tomato Sauce</li>
-                    <li>1/4 cup Water</li>
-                    <li>Optional toppings (shredded cheese, shredded lettuce, chopped tomatoes,<br/>
-                    diced onion, sliced avocado, sour cream, guacamole)</li>
-                </ul>   
-            </p>
-        </article>
-        <br/>
+<body>
+ <aside class="ingredients">
+     <h3>Ingredients</h3>
+     <ul>
+        <li>1 pound Ground Beef</li>
+        <li>Tortillas (corn or flour)</li>
+        <li>1 tablespoon Chili Powder</li>
+        <li>1 teaspoon Cumin</li>
+        <li>3/4 teaspoon Salt</li>
+        <li>1/2 teaspoon Oregano</li>
+        <li>1/2 teaspoon Garlic Powder</li>
+        <li>1/4 teaspoon Ground Black Pepper</li>
+        <li>1/2 cup Tomato Sauce</li>
+        <li>1/4 cup Water</li>
+        <li>Optional toppings (shredded cheese, shredded lettuce, chopped tomatoes,
+        diced onion, sliced avocado, sour cream, guacamole)</li>
+     </ul>
+ </aside>
 
-        <article class="recipeSteps">
-        <h3>Steps</h3>
-            <p>
-                <ol class="recipeStepsList">
-                    <li>Heat skillet on medium-high heat and add ground beef (be sure to break it apart).</li>
-                    <li>Add chili powder, cumin, salt, oregano, garlic powder, and pepper to skillet.</li>
-                    <li>Cook beef until browned.</li>
-                    <li>Reduce heat to medium and add tomato sauce and water. Stir to combine and let simmer.<br/>
-                        Stir occasionally until most of the liquid has evaporated.</li>
-                    <li>Serve on warm tortillas.</li>
-                </ol>
-            </p>
-        </article>  
-    </body>
+<article class="instructions">
+    <h3>Cooking Instructions</h3>
+    <ol>
+        <li>Heat skillet on medium-high heat and add ground beef (be sure to break it apart).</li>
+        <li>Add chili powder, cumin, salt, oregano, garlic powder, and pepper to skillet.</li>
+        <li>Cook beef until browned.</li>
+        <li>Reduce heat to medium and add tomato sauce and water. Stir to combine and let simmer. Stir occasionally until most of the liquid has evaporated.</li>
+        <li>Serve on warm tortillas.</li>
+
+    </ol>
+</article>   
+</body>
+<footer>
+    <p>This website was made as part of <a href="https://www.theodinproject.com/">The Odin Project</a> course.</p>
+</footer>
 </html>
