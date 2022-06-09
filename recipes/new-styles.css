@@ -1,0 +1,102 @@
+/* new-styles.css */
+
+/* NAVIGATION BAR */
+/* Contains styles for navigation links. */
+.headerImg {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(171, 171, 171);
+    background-size: cover;
+}
+
+.menu {
+    float: left;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 8px;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.menu a {
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Lato';
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* RECIPE PREVIEW */
+
+.example .background {
+    width: 100%;
+    height: 420px;
+    position: relative;
+    top: 50px;
+    float: left;
+    background-color: beige;
+}
+
+.example img {
+    position:absolute;
+    top: 92px;
+    left:10px;
+    width: 500px;
+    height: 420px;
+}
+
+.example .previewTitle {
+    position: absolute;
+    top: 120px;
+    right: 400px;
+    font-weight: bold;
+    text-align: right;
+    font-size: 72px;
+    font-family: "Sofia", sans-serif;
+}
+
+.example .previewSummary {
+    position: absolute;
+    top: 220px;
+    right: 450px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Arial", sans-serif
+}
+
+/* INGREDIENTS */
+
+.ingredients {
+    position: absolute;
+    background-color: gainsboro;
+    width: 500px;
+    height: 500px;
+    left: 10px;
+    top: 525px;
+ }
+
+ .ingredients h3 {
+    position: absolute;
+    top: 5px;
+    left: 150px; 
+    font-family: "Arial", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+ }
+
+ .ingredients ul {
+    position: absolute;
+    top: 70px;
+    font-family: "Arial", sans-serif;
+ }
+
